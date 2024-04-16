@@ -1,470 +1,976 @@
-<!DOCTYPE html>
-<html lang="en">
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Luckiest+Guy&family=Single+Day&display=swap');
+.gloria {
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
 
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+.lucky {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
 
-    <link rel="icon" href="./index_files/logo.png.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pablo</title>
-    <link rel="stylesheet" type="text/css" href="./index_files/index.css?ver=1.0.2">
-    <link rel="stylesheet" href="./index_files/animate.min.css">
-    <script src="chrome-extension://honncbpobidomdmanehocfaodmomdhie/scripts/elements.js"></script>
-</head>
+.single {
+    font-family: "Single Day", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
 
-<body>
-    <div id="body">
-        <section class="hero">
-            <nav>
-                <div class="logo">
-                    <img src="./index_files/text.png" alt="">
-                </div>
-                <div class="right-side">
-                    <div class="links">
-                        <a href="">
-                            <img src="./index_files/twi.png" alt="">
-                        </a>
-                        <a href="">
-                            <img src="./index_files/tele.png" alt="">
-                        </a>
-                    </div>
-                    <a href="https://raydium.io/" class="btn single">
-                        Buy Now
-                    </a>
-                </div>
-            </nav>
-            <img src="./index_files/text2.png" alt="" class="heading">
-            <img src="./index_files/logo.png.png" alt="" class="hero-img">
-            <img src="./index_files/circle.png" alt="" class="hero-bg">
-            <img src="./index_files/gif2.gif" alt="" class="gif1">
-            <img src="./index_files/pablo2.png" alt="" class="gif2">
-            <img src="./index_files/pablo3.png" alt="" class="gif3">
-            <img src="./index_files/pablo4.png" alt="" class="gif4">
-            <section class="ca">
-                <img src="./index_files/C-4.png" alt="" class="c-4">
-                <div class="input-bg">
-                    <input type="text" value="Contract Address: AZQaNaNpUnBizhhgHoDhGZRSfcFDDWfRGb1kXZAc6ybL">
-                </div>
-                <div class="btn-group">
-                    <a href="https://www.dextools.io/app/en/solana/pair-explorer/65YTJGXGxRedfmdFcLGYNNLLHVa3evc1oG3ob1g9G28i?t=1711781790349">
-                        <img src="./index_files/dextools-btn.png" alt="">
-                    </a>
-                    <a href="https://raydium.io/">
-                        <img src="./index_files/buy.png" alt="">
-                    </a>
-                </div>
-            </section>
-        </section>
-        <marquee behavior="scroll" direction="right" class="strip">
-            <p class="single">Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa - </p>
-        </marquee>
-        <section class="about">
-            <div class="left">
-                <img src="./index_files/8.gif" alt="">
-            </div>
-            <div class="right">
-                <h1 class="lucky">WELCOME TO $PABLO <br> THE FASTEST CAT ON SOLANA</h1>
-                <p class="single">Pablo, the ambitious cat, dreams of dominating a high-speed race on the Solana blockchain. With unwavering determination, he aims to be the fastest contender, defying all odds and leaving competitors in his digital dust. Join us as we follow Pablo's thrilling journey toward blockchain glory!.</p>
-                <a href="https://solscan.io/token/AZQaNaNpUnBizhhgHoDhGZRSfcFDDWfRGb1kXZAc6ybL" class="btn single">Solscan</a>
-                <audio controls autoplay>
-                    <source src="./index_files/Vibe Chemistry - Balling (LAUFF Remix) [Sped Up Edit].mp3" type="audio/mpeg">
-                </audio>
-            </div>
-        </section>
-        <marquee behavior="scroll" direction="right" class="strip">
-            <p class="single">Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa Pa - Vroom Vroom Pa Pa -</p>
-        </marquee>
-        <section class="tokenomics">
-            <h1 class="lucky">TOKENOMICS <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2JuYnF0ajEyOGpuenVuN29tY2s3YWQzMDlnajQzNjV6emhwcjE3NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/mC20fSDj6ki0NFUHiS/giphy.gif" alt=""></h1>
-            <div class="content">
-                <div class="box">
-                    <h2 class="lucky">Name</h2>
-                    <h2 class="lucky">Pablo</h2>
-                </div>
-                <div class="box">
-                    <h2 class="lucky">SYMBOL</h2>
-                    <h2 class="lucky">$Pablo</h2>
-                </div>
-                <div class="box">
-                    <h2 class="lucky">SUPPLY</h2>
-                    <h2 class="lucky">100,000,000</h2>
-                </div>
-                <div class="box">
-                    <h2 class="lucky">TAXES</h2>
-                    <h2 class="lucky">0%/0%</h2>
-                </div>
-            </div>
-            <div class="content content1">
-                <img src="https://i.kinja-img.com/gawker-media/image/upload/s--nW50Np08--/c_fit,fl_progressive,q_80,w_636/86a9c473d436084aeae853a4fd4d058e.png" alt="">
-                <img src="./index_files/6.jpg" alt="">
-                <img src="https://i.ytimg.com/vi/5NGMQDo4dAs/sddefault.jpg" alt="">
-            </div>
-        <div class="map">
-            
-        </div>
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
-        <div class="join">
-            <h1 class="lucky" style="color: #000000;">join us today <img src="https://i.pinimg.com/originals/6b/1d/69/6b1d69fe325ec208dff155d84d148706.gif" alt=""></h1>
-            <a href="https://t.me/Capoo_Solana" class="btn2 lucky">
-                JOIN telegram <img src="./index_files/star.png" style="filter: invert(1);" alt="">
-            </a>
-            <footer>
-                <h1 class="lucky">Pabl<img src="./index_files/logo.png.png" alt="">O</h1>
-                <div class="links">
-                    <a href="">
-                        <img src="./index_files/twi.png" alt="">
-                    </a>
-                    <a href="">
-                        <img src="./index_files/tele.png" alt="">
-                    </a>
-                </div>
-            </footer>
-        </div>
-        <div class="copy">
-            <a href="#">
-                <p>Copyright © 2024 Pablo . All Rights Reserved</p>
-        
-            </a>
-        </div>
-    </div>
+body {
+    background: #ffc800;
+}
 
-    <translation-icon hide="true" style="display: none;"><template shadowrootmode="open"><style>
-            :host {
-                position: absolute;
-                z-index: 99990;
-                width: 28px;
-                height: 28px;
-                max-width: 28px;
-                max-height: 28px;
-                display: none;
-                align-items: center;
-                justify-content: center;
-                border-radius: 6px;
-                cursor: pointer;
-                background: rgb(255, 196, 0);
-                background: #e8b302;
-            }
+.body {
+    overflow-x: hidden;
+}
 
-            :host:hover {
-                border: 2px solid #ffc400;
-            }
+a {
+    text-decoration: none;
+    color: black;
+}
 
-            .icon {
-                width: 24px;
-                height: 24px;
-            }
-        </style><img class="icon" src="#"></template></translation-icon>
-    <translation-box hide="true" langs="[{&quot;code&quot;:&quot;auto&quot;,&quot;name&quot;:&quot;Auto Select&quot;,&quot;selected&quot;:true},{&quot;code&quot;:&quot;AM&quot;,&quot;name&quot;:&quot;Amharic&quot;,&quot;selected&quot;:false},{&quot;code&quot;:&quot;AR&quot;,&quot;name&quot;:&quot;Arabic&quot;,&quot;selected&quot;:false},{&quot;code&quot;:&quot;BN&quot;,&quot;name&quot;:&quot;Bangla&quot;,&quot;selected&quot;:false},{&quot;code&quot;:&quot;BG&quot;,&quot;name&quot;:&quot;Bulgarian&quot;,&quot;selected&quot;:false},{&quot;code&quot;:&quot;CA&quot;,&quot;name&quot;:&quot;Catalan&quot;,&quot;selected&quot;:false},{&quot;code&quot;:&quot;ZH&quot;,&quot;name&quot;:&quot;Chinese&quot;,&quot;selected&quot;:false},{&quot;code&quot;:&quot;HR&quot;,&quot;name&quot;:&quot;Croatian&quot;,&quot;selected&quot;:false},{&quot;code&quot;:&quot;CS&quot;,&quot;name&quot;:&quot;Czech&quot;,&quot;selected&quot;:false},{&quot;code&quot;:&quot;DA&quot;,&quot;name&quot;:&quot;Danish&quot;,&quot;selected&quot;:false},{&quot;code&quot;:&quot;NL&quot;,&quot;name&quot;:&quot;Dutch&quot;,&quot;selected&quot;:false},{&quot;code&quot;:&quot;EN&quot;,&quot;name&quot;:&quot;English&quot;,&quot;selected&quot;:false},{&quot;code&quot;:&quot;ET&quot;,&quot;name&quot;:&quot;Estonian&quot;,&quot;selected&quot;:false},{&quot;code&quot;:&quot;FA&quot;,&quot;name&quot;:&quot;Persian&quot;,&quot;selected&quot;:false},{&quot;code&quot;:&quot;FIL&quot;,&quot;name&quot;:&quot;Filipino&quot;,&quot;selected&quot;:false},{&quot;code&quot;:&quot;FI&quot;,&quot;name&quot;:&quot;Finnish&quot;,&quot;selected&quot;:false},{&quot;code&quot;:&quot;FR&quot;,&quot;name&quot;:&quot;French&quot;,&quot;selected&quot;:false},{&quot;code&quot;:&quot;DE&quot;,&quot;name&quot;:&quot;German&quot;,&quot;selected&quot;:false},{&quot;code&quot;:&quot;GU&quot;,&quot;name&quot;:&quot;Gujarati&quot;,&quot;selected&quot;:false},{&quot;code&quot;:&quot;EL&quot;,&quot;name&quot;:&quot;Greek&quot;,&quot;selected&quot;:false},{&quot;code&quot;:&quot;HE&quot;,&quot;name&quot;:&quot;Hebrew&quot;,&quot;selected&quot;:false},{&quot;code&quot;:&quot;HI&quot;,&quot;name&quot;:&quot;Hindi&quot;,&quot;selected&quot;:false},{&quot;code&quot;:&quot;HU&quot;,&quot;name&quot;:&quot;Hungarian&quot;,&quot;selected&quot;:false},{&quot;code&quot;:&quot;ID&quot;,&quot;name&quot;:&quot;Indonesian&quot;,&quot;selected&quot;:false},{&quot;code&quot;:&quot;IT&quot;,&quot;name&quot;:&quot;Italian&quot;,&quot;selected&quot;:false},{&quot;code&quot;:&quot;JA&quot;,&quot;name&quot;:&quot;Japanese&quot;,&quot;selected&quot;:false},{&quot;code&quot;:&quot;KN&quot;,&quot;name&quot;:&quot;Kannada&quot;,&quot;selected&quot;:false},{&quot;code&quot;:&quot;KO&quot;,&quot;name&quot;:&quot;Korean&quot;,&quot;selected&quot;:false},{&quot;code&quot;:&quot;LV&quot;,&quot;name&quot;:&quot;Latvian&quot;,&quot;selected&quot;:false},{&quot;code&quot;:&quot;LT&quot;,&quot;name&quot;:&quot;Lithuanian&quot;,&quot;selected&quot;:false},{&quot;code&quot;:&quot;ML&quot;,&quot;name&quot;:&quot;Malayalam&quot;,&quot;selected&quot;:false},{&quot;code&quot;:&quot;MR&quot;,&quot;name&quot;:&quot;Marathi&quot;,&quot;selected&quot;:false},{&quot;code&quot;:&quot;MS&quot;,&quot;name&quot;:&quot;Malay&quot;,&quot;selected&quot;:false},{&quot;code&quot;:&quot;NO&quot;,&quot;name&quot;:&quot;Norwegian&quot;,&quot;selected&quot;:false},{&quot;code&quot;:&quot;PL&quot;,&quot;name&quot;:&quot;Polish&quot;,&quot;selected&quot;:false},{&quot;code&quot;:&quot;PT&quot;,&quot;name&quot;:&quot;Portuguese&quot;,&quot;selected&quot;:false},{&quot;code&quot;:&quot;RO&quot;,&quot;name&quot;:&quot;Romanian&quot;,&quot;selected&quot;:false},{&quot;code&quot;:&quot;RU&quot;,&quot;name&quot;:&quot;Russian&quot;,&quot;selected&quot;:false},{&quot;code&quot;:&quot;SR&quot;,&quot;name&quot;:&quot;Serbian&quot;,&quot;selected&quot;:false},{&quot;code&quot;:&quot;SK&quot;,&quot;name&quot;:&quot;Slovak&quot;,&quot;selected&quot;:false},{&quot;code&quot;:&quot;SL&quot;,&quot;name&quot;:&quot;Slovenian&quot;,&quot;selected&quot;:false},{&quot;code&quot;:&quot;ES&quot;,&quot;name&quot;:&quot;Spanish&quot;,&quot;selected&quot;:false},{&quot;code&quot;:&quot;SV&quot;,&quot;name&quot;:&quot;Swedish&quot;,&quot;selected&quot;:false},{&quot;code&quot;:&quot;SW&quot;,&quot;name&quot;:&quot;Swahili&quot;,&quot;selected&quot;:false},{&quot;code&quot;:&quot;TA&quot;,&quot;name&quot;:&quot;Tamil&quot;,&quot;selected&quot;:false},{&quot;code&quot;:&quot;TE&quot;,&quot;name&quot;:&quot;Telugu&quot;,&quot;selected&quot;:false},{&quot;code&quot;:&quot;TR&quot;,&quot;name&quot;:&quot;Turkish&quot;,&quot;selected&quot;:false},{&quot;code&quot;:&quot;TH&quot;,&quot;name&quot;:&quot;Thai&quot;,&quot;selected&quot;:false},{&quot;code&quot;:&quot;UK&quot;,&quot;name&quot;:&quot;Ukrainian&quot;,&quot;selected&quot;:false},{&quot;code&quot;:&quot;VI&quot;,&quot;name&quot;:&quot;Vietnamese&quot;,&quot;selected&quot;:false}]"
-        style="display: none;"><template shadowrootmode="open"><style>
-            :host {
-                box-sizing: border-box;
-                position: absolute;
-                top: 0;
-                left: 0;
-                z-index: 99999;
-                background-color: rgb(247, 149, 2);
-                border: 1px solid #e2ab03;
-                border-radius: 20px;
-                width: 370px;
-                height: 219px;
-                overflow: hidden;
-                color: #000;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: flex-start;
-                column-gap: 10px;
-            }
+li {
+    list-style: none;
+}
 
-            :host[hide] {
-                display: none;
-            }
+html {
+    scroll-behavior: smooth;
+    line-height: 100%;
+}
 
-            :host[top="true"] {
-                bottom: 0;
-            }
+h1 {
+    font-size: 50px;
+    line-height: 100%;
+    gap: .5vw;
+    color: white;
+}
 
-            .header {
-                box-sizing: border-box;
-                postion: relative;
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                justify-content: space-between;
-                column-gap: 10px;
-                height: 50px;
-                width: 100%;
-                min-height: 50px;
-                padding: 6px 10px;
-                border-radius: 19px 19px 0px 0px;
-                background: rgb(82,1,126);
-                background: #ffc400;
-            }
+h1 img {
+    width: 4vw;
+}
 
-            .close-button {
-                width: 12px;
-                height: 12px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                font-size: 8px;
-                color: rgb(243, 179, 2);
-                border-radius: 50%;
-                border: 1px solid #d293ff;
-                background-color: #d293ff;
-                margin-top: -20px;
-                margin-right: -2px;
-                cursor: pointer;
-            }
+h2 {
+    font-size: 1.5vw;
+    line-height: 100%;
+    gap: .5vw;
+    color: white;
+}
 
-            .header-text {
-                font-size: 14px;
-                font-weight: bold;
-                color: #ffae00;
-            }
+h2 img {
+    width: 1.5vw;
+}
 
-            .result-area {
-                box-sizing: border-box;
-                min-height: 48px;
-                width: 100%;
-                overflow: auto;
-                display: flex;
-                flex-direction: row;
-            }
+h3 {
+    font-size: 2vw;
+    line-height: 100%;
+    color: #EDB623;
+}
 
-            .result-area-text {
-                font-size: 14px;
-                padding: 10px;
-                width: 90%;
-            }
+p {
+    font-size: 1.5vw;
+    line-height: 120%;
+    color: white;
+}
 
-            .result-area-right {
-                width: 10%;
-                padding-top: 10px;
-            }
+.btn {
+    font-size: 1.4vw;
+    padding: .7vw 2.5vw;
+    background-color: #ffc800;
+    border: .2vw solid;
+    border-color: black;
+    transform: rotateZ(4deg);
+    transition: all .2s;
+}
 
-            .copy-icon {
-                width: 24px;
-                height: 24px;
-                cursor: pointer;
-            }
+.btn:hover {
+    background-color: white !important;
+    /* border-color: white; */
+    transform: rotateZ(0deg);
+}
 
-            .language{
-                width: 152px;
-                height: 32px;
-                background: #ffae00;
-                border-radius: 46px;
-                position: relative;
-            }
+.btn1 {
+    padding: .5vw 1vw;
+    background: black;
+    border-radius: .7vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5vw;
+    font-size: 1.2vw;
+    line-height: normal;
+    color: white;
+    font-family: "Luckiest Guy", cursive;
+    transition: all .2s;
+}
 
-            .language.focused{
-                border-radius: 24px 24px 0 0;
-            }
+.btn1 .arrow {
+    width: 1.2vw;
+}
 
-            .language:first-child{
-                margin-left: 18px;
-            }
+.btn1:hover {
+    filter: invert(100%);
+}
 
-            .language_name::first-letter {
-                text-transform: uppercase;
-            }
+/*--------------- hero -------------*/
 
-            .language .selected_language{
-                box-sizing: border-box;
-                -webkit-appearance: none;
-                outline: none;
-                width: 100%;
-                height: 100%;
-                background: #ffb700;
-                border: 1px solid #ffb700;
-                border-radius: 46px;
-                font-family: 'Helvetica', sans-serif;
-                font-style: normal;
-                font-weight: 700;
-                font-size: 14px;
-                line-height: 25px;
-                text-align: center;
-                color: #01002e;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                overflow: hidden;
-            }
+.hero {
+    width: 100%;
+    height: 55vw;
+    background: #ffa200;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-between; */
+    padding-bottom: 7vw;
+    position: relative;
+    padding-top: 15vw;
+}
 
-            .language.focused .selected_language{
-                border-radius: 24px 24px 0 0;
-            }
+.hero nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw 5vw;
+    position: absolute;
+    top: 0;
+}
 
-            .selected_language_control{
-                box-sizing: border-box;
-                background: #FFFFFF;
-                border: 1px solid #ffe100;
-                border-top: none;
-                box-shadow: 0 0 14px rgba(0, 0, 0, 0.25);
-                position: absolute;
-                top:32px;
-                left:0;
-                width: 100%;
-                z-index: 2;
-                border-bottom-right-radius: 24px;
-                border-bottom-left-radius: 24px;
-                height: 170px;
-                overflow: hidden;
-                display: none;
-            }
+.hero .logo img {
+    width: 15vw;
+}
 
-            .language.focused .selected_language_control{
-                box-sizing: border-box;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: flex-start;
-                row-gap: 8px;
-            }
+.hero nav .right-side {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
 
-            .language .search_input{
-                box-sizing: border-box;
-                width: 100%;
-                height: 35px;
-                min-height: 35px;
-                background-color: #3E3E3E;
-                box-shadow: 0 -3px 4px rgba(0, 0, 0, 0.25);
-                background-image: url("../assets/search.svg");
-                background-position: 95px center;
-                background-repeat: no-repeat;
-                background-size: 24px 24px;
-                display: flex;
-                align-items: center;
-            }
+.hero nav .right-side .links {
+    display: flex;
+    align-items: center;
+    gap: .5vw;
+}
 
-            .language .search_input input{
-                box-sizing: border-box;
-                background-color: transparent;
-                width: 100%;
-                font-weight: 600;
-                font-size: 14px;
-                line-height: 21px;
-                outline: none;
-                color: #FFFFFF;
-                border: none;
-                padding-left: 45px;
-            }
+.hero nav .right-side .links a img {
+    width: 3vw;
+}
 
-            .language .search_input input::-webkit-input-placeholder {
-                color: #FFFFFF;
-            }
+.hero nav .right-side .links a img:hover {
+    transition: all .2s;
+}
 
-            .language .search_input input:hover {
-                text-decoration: underline;
-            }
+.hero nav .btn {
+    background-color: #ffa200;
+}
 
-            .language_list_wrapper {
-                box-sizing: border-box;
-                width: 100%;
-                overflow-y: auto;
-                overflow-x: hidden;
-            }
+.hero .heading {
+    width: 50%;
+    z-index: 3;
+    position: absolute;
+    top: 15vw;
+    animation: shakeY 15s infinite;
+}
 
-            .language_list_wrapper::-webkit-scrollbar {
-                width: 4px;
-            }
+.hero .hero-img {
+    width: 20%;
+    position: absolute;
+    z-index: 2;
+    animation: rotate 3.5s infinite linear forwards;
+}
 
-            .language_list_wrapper::-webkit-scrollbar-thumb {
-                background-color: #3E3E3E;
-                border-radius: 6px;
-            }
+.hero .hero-bg {
+    width: 45%;
+    position: absolute;
+    z-index: 1;
+    animation: scale 1.5s infinite alternate-reverse;
+}
 
-            .language_list_wrapper::-webkit-scrollbar-track {
-                background-color: #FFFFFF;
-            }
+.hero .gif1 {
+    position: absolute;
+    width: 10vw;
+    top: 15vw;
+    left: 7vw;
+}
 
-            .language_list {
-                box-sizing: border-box;
-                width: 100%;
-                display: flex;
-                flex-direction: column;
-                align-items: flex-start;
-                justify-content: center;
-                row-gap: 5px;
-                padding: 10px 10px;
-            }
+.hero .gif2 {
+    position: absolute;
+    width: 25vw;
+    bottom: 0;
+    left: -5vw;
+}
 
-            .language_list_item {
-                box-sizing: border-box;
-                width: 100%;
-                padding: 4px 10px;
-                border-radius: 30px;
-            }
-            .language_list_item.hidden {
-                display: none;
-            }
+.hero .gif3 {
+    position: absolute;
+    width: 10vw;
+    top: 20vw;
+    right: 7vw;
+}
 
-            .language_list_item:hover {
-                background: #E4E4E4;
-            }
+.hero .gif4 {
+    position: absolute;
+    width: 8vw;
+    bottom: 0;
+    right: 4vw;
+}
 
-            .language_list_item[selected] {
-                background: #f59d06;
-            }
+@keyframes scale1 {
+    from {
+        transform: scale(1) rotateZ(0deg);
+    }
+    to {
+        transform: scale(0) rotateZ(360deg);
+    }
+}
 
-            .lds-ripple {
-                display: inline-block;
-                position: relative;
-                width: 80px;
-                height: 80px;
-                margin-left: 120px;
-                margin-top: 30px;
-            }
-            .lds-ripple div {
-                position: absolute;
-                border: 4px solid #5829E2;
-                opacity: 1;
-                border-radius: 50%;
-                animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
-            }
-            .lds-ripple div:nth-child(2) {
-                animation-delay: -0.5s;
-            }
-            @keyframes lds-ripple {
-                0% {
-                    top: 36px;
-                    left: 36px;
-                    width: 0;
-                    height: 0;
-                    opacity: 0;
-                }
-                4.9% {
-                    top: 36px;
-                    left: 36px;
-                    width: 0;
-                    height: 0;
-                    opacity: 0;
-                }
-                5% {
-                    top: 36px;
-                    left: 36px;
-                    width: 0;
-                    height: 0;
-                    opacity: 1;
-                }
-                100% {
-                    top: 0;
-                    left: 0;
-                    width: 72px;
-                    height: 72px;
-                    opacity: 0;
-                }
-            }
+/* ----------------------CA--------------
+---- */
 
-            .icon {
-                width: 24px;
-                height: 24px;
-            }
-        </style><div class="header"><img class="icon" src="#"><div class="header-text">Translate to:</div><div><div class="language result_language"><div class="selected_language"><span class="language_name"></span><div class="selected_language_control"><div class="search_input"><input type="text" placeholder="Search" name="result"></div><div class="language_list_wrapper"><div class="language_list"><option class="language_list_item f" value="Amharic">Amharic</option><option class="language_list_item f" value="Arabic">Arabic</option><option class="language_list_item f" value="Bangla">Bangla</option><option class="language_list_item f" value="Bulgarian">Bulgarian</option><option class="language_list_item f" value="Catalan">Catalan</option><option class="language_list_item f" value="Chinese">Chinese</option><option class="language_list_item f" value="Croatian">Croatian</option><option class="language_list_item f" value="Czech">Czech</option><option class="language_list_item f" value="Danish">Danish</option><option class="language_list_item f" value="Dutch">Dutch</option><option class="language_list_item f" value="English">English</option><option class="language_list_item f" value="Estonian">Estonian</option><option class="language_list_item f" value="Persian">Persian</option><option class="language_list_item f" value="Filipino">Filipino</option><option class="language_list_item f" value="Finnish">Finnish</option><option class="language_list_item f" value="French">French</option><option class="language_list_item f" value="German">German</option><option class="language_list_item f" value="Gujarati">Gujarati</option><option class="language_list_item f" value="Greek">Greek</option><option class="language_list_item f" value="Hebrew">Hebrew</option><option class="language_list_item f" value="Hindi">Hindi</option><option class="language_list_item f" value="Hungarian">Hungarian</option><option class="language_list_item f" value="Indonesian">Indonesian</option><option class="language_list_item f" value="Italian">Italian</option><option class="language_list_item f" value="Japanese">Japanese</option><option class="language_list_item f" value="Kannada">Kannada</option><option class="language_list_item f" value="Korean">Korean</option><option class="language_list_item f" value="Latvian">Latvian</option><option class="language_list_item f" value="Lithuanian">Lithuanian</option><option class="language_list_item f" value="Malayalam">Malayalam</option><option class="language_list_item f" value="Marathi">Marathi</option><option class="language_list_item f" value="Malay">Malay</option><option class="language_list_item f" value="Norwegian">Norwegian</option><option class="language_list_item f" value="Polish">Polish</option><option class="language_list_item f" value="Portuguese">Portuguese</option><option class="language_list_item f" value="Romanian">Romanian</option><option class="language_list_item f" value="Russian">Russian</option><option class="language_list_item f" value="Serbian">Serbian</option><option class="language_list_item f" value="Slovak">Slovak</option><option class="language_list_item f" value="Slovenian">Slovenian</option><option class="language_list_item f" value="Spanish">Spanish</option><option class="language_list_item f" value="Swedish">Swedish</option><option class="language_list_item f" value="Swahili">Swahili</option><option class="language_list_item f" value="Tamil">Tamil</option><option class="language_list_item f" value="Telugu">Telugu</option><option class="language_list_item f" value="Turkish">Turkish</option><option class="language_list_item f" value="Thai">Thai</option><option class="language_list_item f" value="Ukrainian">Ukrainian</option><option class="language_list_item f" value="Vietnamese">Vietnamese</option></div></div></div></div></div></div><div class="close-button">✖</div></div><div class="result-area"><div class="result-area-text"></div><div class="result-area-right"><img class="copy-icon" src="#"></div></div></template></translation-box>
-    <style>
-        false
-    </style>
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-</body>
+.ca {
+    text-align: center;
+    position: absolute;
+    z-index: 4;
+    bottom: 3vw;
+}
 
-</html>
+.c-4 {
+    position: absolute;
+    width: 3vw;
+    top: 3vw;
+    left: 10vw;
+    animation: float 5s ease-in-out infinite alternate;
+}
+
+.ca .btn-group {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: -8vw;
+    right: 0vw;
+}
+
+.ca .btn-group a:nth-child(2) img {
+    margin-top: 1.6vw;
+}
+
+.ca .btn-group a img {
+    width: 10vw;
+    transition: all .3s;
+}
+
+.ca .btn-group a img:hover {
+    transform: translateY(-3px);
+    filter: drop-shadow(10px 20px rgba(0, 0, 0, 0.2));
+}
+
+.ca div input {
+    width: 50vw;
+    background: #ffa200;
+    padding: 1.5vw 2vw;
+    border: 3px solid #000;
+    transform: skewY(-2.35deg);
+    margin-top: -3vw;
+    color: #000;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.00);
+    font-size: 1.2vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    /* 130% */
+}
+
+.strip {
+    background-color: #ffa200;
+    padding: .5vw;
+    border: .2vw solid black;
+    border-left: none;
+    border-right: none;
+    margin-bottom: -.5vw;
+}
+
+.strip p {
+    line-height: 100%;
+    color: black;
+}
+
+/* ----------------about---------------- */
+
+.about {
+    width: 100%;
+    height: auto;
+    background: #ffa200;
+    background-size: 100% 100%;
+    background-position: top center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7vw 5vw;
+    padding-bottom: 5vw;
+}
+
+.about .left {
+    width: 40%;
+    text-align: right;
+    position: relative;
+}
+
+.about .left img {
+    width: 80%;
+}
+
+.about .right {
+    width: 50%;
+    padding-right: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2vw;
+}
+
+.about .right p {
+    color: black;
+}
+
+.about .right h1 {
+    color: black;
+    -webkit-text-stroke: 1px #ffffff;
+    text-stroke: 1px #ffa200;
+}
+
+/* -----------tokenomics---------- */
+
+.tokenomics {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffa200;
+    text-align: center;
+    gap: 4vw;
+    padding: 5vw 12vw;
+    margin-top: 5px;
+    position: relative;
+}
+
+.tokenomics h1 {
+    color: #000000;
+    -webkit-text-stroke: 1px #ffffff;
+    text-stroke: 1px #ffa200;
+}
+
+.tokenomics h1 img {
+    animation: scale 2s infinite alternate-reverse;
+    transform-origin: bottom center;
+}
+
+
+
+@keyframes scale {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+.tokenomics .content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tokenomics .content .box {
+    width: 22%;
+    padding: .7vw;
+    border: .25vw solid rgb(0, 0, 0);
+    border-radius: 1vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5vw;
+}
+
+.tokenomics .content .box h2:nth-child(1) {
+    color: #000000;
+    -webkit-text-stroke: 1px #ffffff;
+    text-stroke: 1px #ffa200;
+    background: #f59d06;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 100%;
+    padding: .3vw 0;
+    padding-bottom: 0vw;
+}
+
+.tokenomics .content .box h2:nth-child(2) {
+    color: rgb(255, 255, 255);
+}
+
+.tokenomics .content1 {
+    padding: 0 5vw;
+}
+
+.tokenomics .content1 img {
+    width: 27%;
+}
+
+.tokenomics .content1 img:nth-child(2) {
+    width: 38%;
+}
+
+/*------------- roadmap ---------------*/
+
+.map {
+    width: 100%;
+    padding: 5vw 15vw;
+    background-color: #FFa200;
+    margin-top: -1.5vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 3vw;
+}
+
+.map .content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.map h1 {
+    color: #5829E2;
+}
+
+.map h1 img {
+    animation: rotate 1s infinite linear forwards;
+    transform-origin: center;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.map .content .box {
+    width: 30%;
+    background-color: #f59d06;
+    border: .2vw solid #f59d06;
+    border-radius: 2vw;
+    padding: 2.5vw 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.5vw;
+    box-shadow: 0 0 2.5vw rgba(156, 106, 255, 0.927);
+}
+
+.map .content .box h3 {
+    color: white;
+}
+
+/* ------------------partners------------
+---------- */
+
+.partners {
+    width: 100%;
+    height: auto;
+    padding: 5vw 15vw;
+    text-align: center;
+    background-color: #68B7FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vw;
+    position: relative;
+}
+
+.partners h1 {
+    color: black;
+}
+
+.partners h1 img {
+    animation: shakeY 1.5s infinite;
+}
+
+.partners .content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 2vw;
+    row-gap: 2vw;
+}
+
+.partners .content img {
+    width: 18%;
+}
+
+/*------------------- join -------------
+--------*/
+
+.join {
+    width: 100%;
+    background: #f59d06;
+    padding: 5vw 15vw;
+    padding-bottom: 1vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vw;
+    margin-top: -.2vw;
+    position: relative;
+}
+
+.join h1 img {
+    animation: shakeX 2s infinite;
+}
+
+.join .btn2 {
+    display: flex;
+    align-items: center;
+    gap: .5vw;
+    font-size: 1.2vw;
+    color: #fff;
+    background: #000000;
+    border-radius: 1.5vw;
+    padding: 2vw;
+    transition: all .2s;
+}
+
+.join .btn2:hover {
+    filter: invert(100%);
+}
+
+.join .btn2 img {
+    width: 1.2vw;
+}
+
+footer {
+    text-align: center;
+}
+
+footer h1 {
+    color: #ffffff;
+}
+
+footer h1 img {
+    margin: 0 -.5vw;
+    animation: bounce 1s infinite !important;
+}
+
+footer .links {
+    padding-top: 2vw;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    justify-content: center;
+}
+
+footer .links a img {
+    width: 3vw;
+    transition: all .2s;
+}
+
+footer .links a img:hover {
+    filter: invert(100%);
+}
+
+.copy {
+    width: 100%;
+    background: #000000;
+    padding: 1vw 10vw;
+    text-align: center;
+}
+
+.copy p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.3vw;
+}
+
+/*---------------- website responsive -----------
+------------*/
+
+@media(max-width:600px) {
+    h1 {
+        font-size: 8vw;
+    }
+    h1 img {
+        width: 8vw;
+    }
+    h2 {
+        font-size: 3.5vw;
+    }
+    h2 img {
+        width: 3.5vw;
+    }
+    h3 {
+        font-size: 3.5vw;
+    }
+    p {
+        font-size: 3.2vw;
+    }
+    .btn {
+        font-size: 3.6vw;
+        padding: 1.3vw 4vw;
+        border: .5vw solid;
+    }
+    .btn1 {
+        padding: 1.3vw 4vw;
+        border-radius: 1.5vw;
+        gap: 1vw;
+        font-size: 3.2vw;
+    }
+    .btn1 .arrow {
+        width: 3.2vw;
+    }
+    /*--------------- hero -------------*/
+    .hero {
+        width: 100%;
+        height: 120vw;
+    }
+    .hero nav {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1vw 3vw;
+        position: absolute;
+        top: 2vw;
+    }
+    .hero .logo img {
+        width: 25vw;
+    }
+    .hero nav .right-side {
+        display: flex;
+        align-items: center;
+        gap: 1vw;
+    }
+    .hero nav .right-side .links {
+        display: flex;
+        align-items: center;
+        gap: 1.5vw;
+    }
+    .hero nav .right-side .links a img {
+        width: 7vw;
+    }
+    .hero nav .right-side .links a img:hover {
+        filter: invert(100%);
+        transition: all .2s;
+    }
+    .hero nav .btn {
+        background-color: #68B7FF;
+    }
+    .hero .heading {
+        width: 70%;
+        z-index: 3;
+        position: absolute;
+        top: 38vw;
+    }
+    .hero .hero-img {
+        width: 40%;
+        position: absolute;
+        z-index: 2;
+    }
+    .hero .hero-bg {
+        width: 80%;
+        position: absolute;
+        z-index: 1;
+    }
+    .hero .gif1 {
+        position: absolute;
+        width: 15vw;
+        top: 15vw;
+        left: 7vw;
+    }
+    .hero .gif2 {
+        position: absolute;
+        width: 35vw;
+        bottom: 0;
+        left: -5vw;
+        z-index: 5;
+    }
+    .hero .gif3 {
+        position: absolute;
+        width: 15vw;
+        top: 20vw;
+        right: 7vw;
+    }
+    .hero .gif4 {
+        position: absolute;
+        width: 13vw;
+        bottom: 0;
+        right: 4vw;
+    }
+    .strip {
+        background-color: #4BF8E3;
+        padding: 2vw;
+        border: .4vw solid black;
+        border-left: none;
+        border-right: none;
+    }
+    .strip p {
+        line-height: 100%;
+        color: black;
+    }
+    /* ----------------------CA--------------
+---- */
+    .ca {
+        text-align: center;
+        /* position: relative; */
+        bottom: 20vw;
+    }
+    .c-4 {
+        position: absolute;
+        width: 4vw;
+        top: 3vw;
+        left: 5vw;
+    }
+    .ca .btn-group {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: -12vw;
+        right: 0vw;
+    }
+    .ca .btn-group a:nth-child(2) img {
+        margin-top: 1.6vw;
+    }
+    .ca .btn-group a img {
+        width: 20vw;
+    }
+    .ca div input {
+        width: 74vw;
+        background: #68B7FF;
+        padding: 1.5vw 2vw;
+        border: 2px solid #000;
+        transform: skewY(-2.35deg);
+        margin-top: -3vw;
+        color: #000;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.00);
+        font-size: 2.2vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        /* 130% */
+    }
+    /* ----------------about---------------- */
+    .about {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10vw 5vw;
+        padding-bottom: 5vw;
+        gap: 10vw;
+        margin-top: -.7vw;
+    }
+    .about .left {
+        width: 70%;
+        text-align: center;
+        position: relative;
+    }
+    .about .left img {
+        width: 100%;
+    }
+    .about .right {
+        width: 100%;
+        padding-right: 5vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 3vw;
+    }
+    /* -----------tokenomics---------- */
+    .tokenomics {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 9vw;
+        padding: 9vw 8vw;
+    }
+    .tokenomics .content {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 7vw;
+        justify-content: space-between;
+    }
+    .tokenomics .content .box {
+        width: 48%;
+        padding: .7vw;
+        border-radius: 1vw;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 2.5vw;
+    }
+    .tokenomics .content .box h2:nth-child(1) {
+        padding: 1vw 0;
+        padding-bottom: .75vw;
+    }
+    .tokenomics .content1 {
+        padding: 0 5vw;
+        justify-content: center;
+        column-gap: 5vw;
+        padding: 0;
+        /* align-items: center; */
+    }
+    .tokenomics .content1 img {
+        width: 45%;
+        border-radius: 2vw;
+    }
+    .tokenomics .content1 img:nth-child(2) {
+        width: 45%;
+    }
+    /*------------- roadmap ---------------*/
+    .map {
+        width: 100%;
+        padding: 10vw 15vw;
+        margin-top: -1.5vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 7vw;
+    }
+    .map .content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 7vw;
+        justify-content: space-between;
+    }
+    .map .content .box {
+        width: 100%;
+        background-color: #479EE2;
+        border: .2vw solid #479EE2;
+        border-radius: 5vw;
+        padding: 5vw 4vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 3vw;
+    }
+    .map .content .box h3 {
+        color: white;
+        font-size: 7vw;
+    }
+    /* ------------------partners------------
+    ---------- */
+    .partners {
+        width: 100%;
+        height: auto;
+        padding: 9vw 5vw;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2vw;
+        position: relative;
+    }
+    .partners h1 {
+        color: black;
+    }
+    .partners .content {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 5vw;
+        row-gap: 5vw;
+    }
+    .partners .content img {
+        width: 27%;
+    }
+    /*------------------- join -------------
+    --------*/
+    .join {
+        width: 100%;
+        padding: 10vw 7vw;
+        padding-bottom: 3vw;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3vw;
+        margin-top: -.2vw;
+        position: relative;
+    }
+    .join .btn2 {
+        display: flex;
+        align-items: center;
+        gap: 1vw;
+        font-size: 3vw;
+        color: #fff;
+        background: #479EE2;
+        border-radius: 1.5vw;
+        padding: 2vw;
+        transition: all .2s;
+    }
+    .join .btn2:hover {
+        filter: invert(100%);
+    }
+    .join .btn2 img {
+        width: 3vw;
+    }
+    footer {
+        text-align: center;
+        padding-top: 8vw;
+    }
+    footer h1 img {
+        margin: 0 -.5vw;
+    }
+    footer .links {
+        padding-top: 4vw;
+        display: flex;
+        align-items: center;
+        gap: 3vw;
+        justify-content: center;
+    }
+    footer .links a img {
+        width: 7vw;
+        transition: all .2s;
+    }
+    footer .links a img:hover {
+        filter: invert(100%);
+    }
+    .copy {
+        width: 100%;
+        background: #436c97;
+        padding: 3vw 5vw;
+        text-align: center;
+    }
+    .copy p {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 3.3vw;
+    }
+}
